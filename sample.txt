@@ -1,1 +1,16 @@
-作成
+鹿児島　
+
+
+最初のコマンド
+git init
+git add sample.txt
+git commit -m "コメント"
+git remote add origin main gitURL
+git push -u origin main
+
+
+2回目以降のコマンド
+git add *
+git commit -m "コメント"
+git push origin test
+
